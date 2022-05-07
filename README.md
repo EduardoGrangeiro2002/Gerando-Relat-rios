@@ -1,18 +1,18 @@
 ## Regras de negócios ##
-*** Somar total de horas trabalhadas em todos os anos ***
-*** Somar total de horas trabalhadas ao longo dos meses ***
-*** Somar total de horas trabalhadas ao longo dos anos ***
+Somar total de horas trabalhadas em todos os anos 
+Somar total de horas trabalhadas ao longo dos meses 
+Somar total de horas trabalhadas ao longo dos anos 
 
 
 ## Relatório ##
-*** Entrada ***
+### Entrada ###
 1- Nome
 2- Horas por dia
 3- Dias trabalhados
 4- Mês trabalhado
 5- Ano trabalhado
 
-*** Saída ***
+### Saída ###
 %{
   all_hours: %{
         danilo: 500,
