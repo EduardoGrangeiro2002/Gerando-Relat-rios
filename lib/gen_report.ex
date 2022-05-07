@@ -1,6 +1,15 @@
 defmodule GenReport do
 
-  def build do
-    # TO DO
+  def build(filename) do
+    filename
+    |> File.stream!()
+    |> Stream.map(fn line -> parse_line(line) end)
+  end
+
+  defp parse_line(line) do
+    line
+    |> String.trim()
+    |> String.split(",")
+    |> List.update_at(2, &String.to_integer/1)
   end
 end
